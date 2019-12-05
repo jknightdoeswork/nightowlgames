@@ -4,3 +4,11 @@
 
 layout: home
 ---
+
+Welcome to nightowl games.
+
+This website is currently under construction.
+
+Checkout this [hyperputt][1] page to see what I'm working on.
+
+[1]: /hyperputt
