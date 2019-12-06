@@ -31,6 +31,9 @@ plugins:
 # Link settings
 permalink: /:categories/:title/
 
+# Analytics
+google_analytics: UA-154142427-1
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
