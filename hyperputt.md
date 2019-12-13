@@ -31,7 +31,13 @@ _Another few hours of iteration on the water, December 12th, 2019_
 
 Woah. This is getting close. I got this effect by cranking up the x value on the displacement map on the waterfall. This has the effect of "smearing" the noise blobs horizontally across the waterfall into a line. It's getting close to reaching the quality bar that I'm aiming for.
 
+![hyperputt-waterfall4][waterfall4]  
+_I can finally move on, December 12th, 2019_
+
+I've tweaked some numbers, and have reached a waterfall effect that I'm happy with. I made the particles smaller, I brightened up the whole level a bit, and I adjusted the noise on the waterfall to not be so chaotic.
+
 [cliffhanger]:{{site.baseurl}}/assets/img/hyperput_cliffhanger.gif "HyperPutt Gif"
 [waterfall]:{{site.baseurl}}/assets/img/hyperputt_flagwiggle3.gif "HyperPutt Waterfall"
 [waterfall2]:{{site.baseurl}}/assets/img/hyperputt_waterfall6.gif "HyperPutt Waterfall2"
 [waterfall3]:{{site.baseurl}}/assets/img/hyperputt_waterfall7.gif "HyperPutt Waterfall3"
+[waterfall4]:{{site.baseurl}}/assets/img/hyperputt_waterfall10.gif "HyperPutt Waterfall4"
