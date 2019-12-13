@@ -13,7 +13,7 @@ HyperPutt is an elegant golf puzzle game being developed in the Godot Engine.
 ![hyperputt-cliffhanger][cliffhanger]  
 _My first level, December 4th, 2019_
 
-HyperPutt aims to be a zen puzzler. I'm working hard to make the levels interesting and challenging. I hope to release HyperPutt in mid 2019 on Steam, Google Play and the iOS App Store.
+HyperPutt aims to be a zen puzzler. I'm working hard to make the levels interesting and challenging. I hope to release HyperPutt in mid 2020 on Steam, Google Play and the iOS App Store.
 
 ![hyperputt-waterfall][waterfall]  
 _A waterfall, a wiggling flag & a rotatable camera December 11th, 2019_
