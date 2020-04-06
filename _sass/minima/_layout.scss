@@ -125,6 +125,17 @@
   margin-top: 15px;
 }
 
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons {
+  .social-icon {
+    margin-right: 3px;
+  }
+}
+
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
@@ -155,11 +166,7 @@
 
 @include media-query($on-laptop) {
   .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-  }
-
+  .footer-col-2,
   .footer-col-3 {
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
@@ -168,9 +175,13 @@
 
 @include media-query($on-palm) {
   .footer-col {
-    float: none;
+    margin-bottom: 0;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
     width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+  .social-icons {
+    margin-top: 0px;
+    margin-left: 10px;
   }
 }
 
