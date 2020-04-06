@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: nightowl games
 #email: 00jknight@gmail.com
+author: Jason Knight
 description: >- # this means to ignore newlines until "baseurl:"
   A solo gamedev shop by Jason Knight.
 baseurl: "" # the subpath of your site, e.g. /blog
