@@ -1,1 +1,6 @@
-<a class="nightowl-logo" rel="author" href="{{ "/" | relative_url }}"><img class="nightowl-logo-svg" src="{{ '/assets/svg/nightowl_moon.svg' | relative_url }}"></img><span class="nightowl-logo-text">{{ site.title | escape }}</span></a>
+<a class="nightowl-logo" rel="author" href="{{ "/" | relative_url }}">
+{%- include svg/nightowl_moon_crescent.svg -%}
+<div class="nightowl-logo-text">
+{{ site.title | escape }}
+</div>
+</a>
