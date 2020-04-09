@@ -5,7 +5,7 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <!--<svg></svg>-->
 
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="nightowl-logo-svg" style="width:32px;height:32px;" src="{{ '/assets/svg/nightowl_logo_bw.svg' | relative_url }}"></img>{{ site.title | escape }}</a>
+    {%- include nightowl_logo.html -%}
 
     {%- if page_paths -%}
       <nav class="site-nav">

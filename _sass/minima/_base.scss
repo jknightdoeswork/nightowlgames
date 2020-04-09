@@ -1,3 +1,5 @@
+
+
 /**
  * Reset some basic elements
  */
@@ -103,16 +105,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $nightowl-light;
   text-decoration: none;
 
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $nightowl-neon;
   }
 
   .social-media-list &:hover {

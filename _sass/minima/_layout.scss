@@ -1,26 +1,50 @@
+@font-face {
+  font-family: comfortaa;
+  src: url(font/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: arcanum;
+  src: url(font/Arcanum_Order.ttf);
+}
+
 /**
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-dark;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  background-color: $nightowl-lilac;
 }
 
+
+.nightowl-logo-text {
+  font-family: arcanum;
+  font-size: 32pt;
+  margin-left: 10px;
+}
+
+.nightowl-logo-svg {
+  height: 32px;
+  vertical-align: text-bottom;
+  position: relative;
+  top: 3px;
+}
+
+
+
 .site-title {
+  
   @include relative-font-size(1.625);
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
 }
 
 .site-nav {
@@ -36,7 +60,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    font-family: comfortaa;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -105,8 +129,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $grey-color-dark;
   padding-top: 15px;
+  background-color: $nightowl-very-dark;
 }
 
 .footer-heading {
@@ -130,10 +155,18 @@
 
 .social-icons {
   .social-icon {
-    margin-right: 3px;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 10px;
+    path {
+      fill: $nightowl-light;
+      &:hover {
+        fill: $nightowl-neon;
+      }
+    }
+
+    padding-right: 12px;
+    width: 28px;
+    margin-top: 4px;
+    
+    display: inline-block;
   }
 }
 
@@ -252,6 +285,13 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  background-color: $nightowl-dark;
+  a {
+    color: $nightowl-neon;
+    &:hover {
+    color: lighten($nightowl-neon, 25%);
+    }
+  }
 }
 
 .page-heading {

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 2048 1024"
+   height="1024"
+   width="2048">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1119"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#545454;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1117" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#545454;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path841" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-26.06665)"
+     id="layer1">
+    <circle
+       style="display:inline;opacity:0.3;fill:none;fill-opacity:0.19607843;stroke:#545454;stroke-width:40;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle862"
+       cx="520"
+       cy="546.06665"
+       r="321.42856" />
+    <circle
+       r="321.42856"
+       cy="538.06665"
+       cx="512"
+       id="path826"
+       style="display:inline;fill:none;fill-opacity:0.19607843;stroke:#545454;stroke-width:40;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <circle
+       style="display:none;opacity:0.3;fill:#545454;fill-opacity:0.37837842;stroke:none;stroke-width:40;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="circle866"
+       cx="520"
+       cy="546.06665"
+       r="182.85715" />
+    <circle
+       r="182.85715"
+       cy="538.06665"
+       cx="512"
+       id="path830"
+       style="display:none;opacity:0.3;fill:#545454;fill-opacity:1;stroke:none;stroke-width:40;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <path
+       id="path868"
+       d="m 462.91406,372.58813 c -74.96202,24.63327 -125.66809,94.57293 -125.77148,173.47852 -1.5e-4,100.98943 75.80708,166.69513 176.7965,166.69498 56.42586,-0.0851 89.44908,-6.01259 124.02547,-50.60359 -18.41053,6.13499 -11.41631,5.25963 -30.82197,5.33634 -100.98866,1.5e-4 -182.85649,-81.8668 -182.85742,-182.85546 0.0788,-40.60312 13.66935,-80.02516 38.6289,-112.05079 z"
+       style="display:inline;opacity:0.3;fill:#545454;fill-opacity:1;stroke:none;stroke-width:40;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <path
+       id="circle837"
+       transform="translate(0,26.06665)"
+       d="M 454.91406,338.52148 A 182.85715,182.85715 0 0 0 329.14258,512 182.85715,182.85715 0 0 0 512,694.85742 182.85715,182.85715 0 0 0 656.22852,624.05078 182.85715,182.85715 0 0 1 599.14258,633.42773 182.85715,182.85715 0 0 1 416.28516,450.57227 182.85715,182.85715 0 0 1 454.91406,338.52148 Z"
+       style="display:inline;fill:#545454;fill-opacity:1;stroke:none;stroke-width:40;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <text
+       id="text880"
+       y="521.69348"
+       x="919.81067"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:290.66665649px;line-height:1.25;font-family:Arcanum_Order;-inkscape-font-specification:'Arcanum_Order, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:0.3;fill:#545454;fill-opacity:1;stroke:none;stroke-width:12.80000019;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45345345;paint-order:stroke fill markers"
+       xml:space="preserve"><tspan
+         id="tspan878"
+         y="521.69348"
+         x="919.81067"><tspan
+           id="tspan876"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:341.33334351px;font-family:Arcanum_Order;-inkscape-font-specification:'Arcanum_Order, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#545454;fill-opacity:1;stroke:none;stroke-width:12.80000019;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45345345;paint-order:stroke fill markers"
+           y="521.69348"
+           x="919.81067">nightowl</tspan></tspan></text>
+    <text
+       id="text874"
+       y="513.69348"
+       x="911.81067"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:290.66665649px;line-height:1.25;font-family:Arcanum_Order;-inkscape-font-specification:'Arcanum_Order, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#545454;fill-opacity:1;stroke:none;stroke-width:12.80000019;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45345345;paint-order:stroke fill markers"
+       xml:space="preserve"><tspan
+         id="tspan872"
+         y="513.69348"
+         x="911.81067"><tspan
+           id="tspan870"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:341.33334351px;font-family:Arcanum_Order;-inkscape-font-specification:'Arcanum_Order, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#545454;fill-opacity:1;stroke:none;stroke-width:12.80000019;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.45345345;paint-order:stroke fill markers"
+           y="513.69348"
+           x="911.81067">nightowl</tspan></tspan></text>
+    <text
+       id="text892"
+       y="683.31128"
+       x="910.36749"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:0.3;fill:#545454;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan890"
+         y="683.31128"
+         x="910.36749"><tspan
+           id="tspan888"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:170.66667175px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#545454;fill-opacity:1"
+           y="683.31128"
+           x="910.36749">games</tspan></tspan></text>
+    <text
+       id="text886"
+       y="675.31128"
+       x="902.36749"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;opacity:1;fill:#545454;fill-opacity:1;stroke:none"
+       xml:space="preserve"><tspan
+         id="tspan884"
+         y="675.31128"
+         x="902.36749"><tspan
+           id="tspan882"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:170.66667175px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#545454;fill-opacity:1"
+           y="675.31128"
+           x="902.36749">games</tspan></tspan></text>
+  </g>
+</svg>

@@ -10,15 +10,22 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
+$text-color:       #f5deb3 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #15deb3 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
+
+
+$nightowl-lilac: #2a273f;
+$nightowl-dark: #15202b;
+$nightowl-neon: #15deb3;
+$nightowl-light: #f5deb3;
+$nightowl-very-dark: #0c1217;
 
 // Width of the content area
 $content-width:    800px !default;
