@@ -2,6 +2,7 @@
 layout: page
 title: hyperputt
 permalink: /hyperputt/
+description: HyperPutt is an elegant golf puzzle game being developed in the Godot Engine.
 ---
 
 _Last updated: December 12th, 2019_

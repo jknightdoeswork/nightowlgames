@@ -210,6 +210,31 @@
 
 #mc-embedded-subscribe-form {
   margin-top:20px;
+  input {
+    font-family: comfortaa;
+    border: none;
+    border-radius: 4px;
+    display:inline-block;
+    vertical-align:middle;
+    color: $nightowl-dark;
+  }
+  #mce-EMAIL {
+    height: 24px;
+    max-width:128px;
+    background-color: $grey-color-light;
+    text-indent: 4px;
+    &:hover {
+      background-color: $nightowl-neon;
+    }
+  }
+  #mc-embedded-subscribe {
+    background-color: $nightowl-light;
+    height:26px;
+
+    &:hover {
+      background-color: $nightowl-neon;
+    }
+  }
 }
 footer {
   .nightowl-logo {

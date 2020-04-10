@@ -17,7 +17,7 @@ title: nightowl
 #email: 00jknight@gmail.com
 author: Jason
 description: >- # this means to ignore newlines until "baseurl:"
-  A solo gamedev shop by Jason Knight.
+  Welcome to nightowl games.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nightowl.games" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 00jknight
