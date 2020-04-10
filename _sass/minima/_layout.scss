@@ -24,7 +24,7 @@
 .nightowl-logo-text {
   font-family: arcanum;
   font-size: 32pt;
-  margin-left: 4px;
+  margin-left: 32px;
   display:inline-block;
 }
 
@@ -34,12 +34,11 @@
     vertical-align: top;
     height: 64px;
     width: 64px;
-    
+    position:absolute;
 
     path {
-      fill: wheat!important;
       &:hover {
-      fill:$nightowl-neon!important;
+        fill:$nightowl-neon!important;
       } 
     }
   }
@@ -162,20 +161,21 @@
   margin-top: 15px;
 }
 
+
 .social-icons {
   .social-icon {
-    path {
-      fill: $nightowl-light;
-      &:hover {
-        fill: $nightowl-neon;
-      }
-    }
-
     padding-right: 12px;
     width: 28px;
     margin-top: 4px;
-    
     display: inline-block;
+    &:hover {
+      path{
+        fill: $nightowl-neon;
+      }
+    }
+    path {
+      fill: $nightowl-light;
+    }
   }
 }
 
