@@ -4,8 +4,8 @@
  * Site header
  */
 .site-header {
-  min-height: $spacing-unit * 1.865;
-
+  height:48px;
+  border-bottom: 1px solid $nightowl-light;
   // Positioning context for the mobile navigation icon
   position: relative;
 
