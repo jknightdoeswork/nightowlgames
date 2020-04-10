@@ -4,11 +4,11 @@
  * Site header
  */
 .site-header {
-  height:45px;
+  height:51.5px;
   border-bottom: 1px solid $nightowl-light;
   // Positioning context for the mobile navigation icon
   position: relative;
-
+  z-index: 1;
   background-color: $nightowl-lilac;
 }
 
@@ -18,6 +18,8 @@
   font-size: 32pt;
   margin-left: 32px;
   display:inline-block;
+  position: relative;
+  z-index: 1;
 }
 
 .nightowl-logo {
