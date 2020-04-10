@@ -20,6 +20,15 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
 
+@font-face {
+  font-family: comfortaa;
+  src: url(/assets/font/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: arcanum;
+  src: url(/assets/font/Arcanum_Order.ttf);
+}
 
 $nightowl-lilac: #2a273f;
 $nightowl-dark: #15202b;
