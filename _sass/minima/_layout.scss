@@ -4,7 +4,7 @@
  * Site header
  */
 .site-header {
-  height:48px;
+  height:45px;
   border-bottom: 1px solid $nightowl-light;
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -226,6 +226,7 @@
 
     &:hover {
       background-color: $nightowl-neon;
+      cursor:pointer;
     }
   }
 }
