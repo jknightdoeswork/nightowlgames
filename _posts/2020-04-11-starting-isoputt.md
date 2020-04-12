@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Starting Isoputt"
-date:   2019-12-12 9:30:00 -0600
+date:   2020-04-11 11:11:12 -0600
 categories: isoputt
 ---
 
