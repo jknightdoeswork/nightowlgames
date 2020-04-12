@@ -23,11 +23,13 @@ $table-text-align: left !default;
 @font-face {
   font-family: comfortaa;
   src: url(/assets/font/Comfortaa-Regular.ttf);
+  font-display:swap;
 }
 
 @font-face {
   font-family: arcanum;
   src: url(/assets/font/Arcanum_Order.ttf);
+  font-display:swap;
 }
 
 $nightowl-lilac: #2a273f;
