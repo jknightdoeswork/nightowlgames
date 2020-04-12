@@ -20,6 +20,7 @@ _After much iteration_
 
 After much iteration, I began to form an effective design process. I begin by placing 2 or 3 large cubes, put the ball on one and the hole on another, and start visualizing the path I want to force players to take. The placement of these initial large cubes is vitally important. Placed well, and the level will come together quickly and easily. Placed poorly, and you will fight to make the level fun.
 
+I've thrown out many levels that did not reach the quality bar that I was looking for. Now, I usually have a clear vision in mind before I begin. I have a notebook where I draw the simplest minigolf levels imaginable, and I slowly add complexity to the simplicity. Ideally, this allows me to fail on paper, instead of at my computer.
 
 ![twins][twins]
 _Less is more_
