@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "starting isoputt"
+title:  "Starting Isoputt"
 date:   2019-12-12 9:30:00 -0600
 categories: isoputt
 ---
@@ -14,13 +14,13 @@ Turns out designing compelling content is hard.
 
 The experience of making this game has changed my outlook on game dev completely. I now view level creation as the primary mode of game development; where systems and implementations merely serve as a scaffold upon which to build artistry. Before, I was stuck in the programmer focused mindset, constantly trying to create some perfect system which would generate fun. I now see game design differently; I'm trying to create a system where a single hour of my time can generate 5 minutes of entertainment for thousands of people. That's the equation. Thats the goal.
 
-Turns out fun is elusive. I had many failed level designs. After making the following level, I deleted all the levels I had made with KennyNL's tiles, and started from scratch. I had moved the bar higher of what quality was, and none of my previous levels reached the quality threshold that I now required.
+Turns out fun is elusive. I had many failed level designs. After making the following level, I deleted all the levels I had made with KennyNL's tiles, and started from scratch. I had moved the bar higher, and none of my previous levels reached the threshold of quality that I now required.
 
 ![hyperputt-cliffhanger][cliffhanger]  
 _After much iteration_
 
 
-After much iteration, I began to form an effective design process. Now, I usually have a clear vision in mind before I begin. I have a notebook where I draw the simplest minigolf levels imaginable, and I slowly add complexity to the simplicity. Ideally, this allows me to fail on paper, instead of at my computer.
+This is what growth is. Deleting the old and starting again. After much more iteration, I began to form an effective design process. Now, I usually have a clear vision in mind before I begin. I have a notebook where I draw the simplest minigolf levels imaginable, and I slowly add complexity to the simplicity. Ideally, this allows me to fail on paper, instead of at my computer.
 
 ![tee][tee]
 _Less is more_
