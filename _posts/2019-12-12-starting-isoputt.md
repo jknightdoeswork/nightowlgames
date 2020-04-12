@@ -28,8 +28,11 @@ Simplicity is the key here. Less is more. I've spent countless hours adding more
 
 ![tee][tee]
 
+If your interested in Isoputt, please consider following me on [twitter][twitter], subscribing to my email list, or donating on [kofi][kofi].
 
 [cliffhanger]:{{site.baseurl}}/assets/img/hyperput_cliffhanger.gif "Isoputt Gif"
 [minigolf]:{{site.baseurl}}/assets/img/minigolf.gif "Minigolf Gif"
 [tee]:{{site.baseurl}}/assets/img/hyperputt_showreel2.gif "Isoputt Gif"
 [twins]:{{site.baseurl}}/assets/img/isoputt_twins.gif "Isoputt Gif"
+[twitter]:https://twitter.com/00jknight
+[kofi]:https://ko-fi.com/00jknight
