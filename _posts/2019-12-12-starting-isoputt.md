@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Starting Isoputt"
+title:  "starting isoputt"
 date:   2019-12-12 9:30:00 -0600
 categories: isoputt
 ---
@@ -37,3 +37,4 @@ If your interested in Isoputt, please consider following me on [twitter][twitter
 [twins]:{{site.baseurl}}/assets/img/isoputt_twins.gif "Isoputt Gif"
 [twitter]:https://twitter.com/00jknight
 [kofi]:https://ko-fi.com/00jknight
+
