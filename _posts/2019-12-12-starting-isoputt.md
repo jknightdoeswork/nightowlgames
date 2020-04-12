@@ -5,22 +5,22 @@ date:   2019-12-12 9:30:00 -0600
 categories: isoputt
 ---
 
-I began working on Isoputt in December 2019 when I was inspired by [KennyNL's Minigolf](https://www.kenney.nl/assets/minigolf-kit) asset pack. I thought that I could use these tiles to make a simple game in a week. I placed some of Kenny's tiles into the scene, and started trying to get the ball physics right.
+I began working on Isoputt in December 2019 when I was inspired by [KennyNL's Minigolf](https://www.kenney.nl/assets/minigolf-kit) asset pack. I thought that I could use these tiles to make a simple game in a week. I placed some of Kenny's tiles into the godot editor, and started trying to get the ball physics right. I started with a simple rigid body sphere. 5 months later and I'm still working on the same project.
 
 ![minigolf][minigolf]  
 _My initial physics-prototyping level._
 
-5 months later and I'm still working on the same project. Turns out designing compelling content is hard.
+Turns out designing compelling content is hard.
 
-The experience of making this game has changed my outlook on game dev completely. I now view level creation as the primary mode of game development; where systems and implementations merely serve as a scaffold upon which to build artistry.
+The experience of making this game has changed my outlook on game dev completely. I now view level creation as the primary mode of game development; where systems and implementations merely serve as a scaffold upon which to build artistry. Before, I was stuck in the programmer focused mindset, constantly trying to create some perfect system which would generate fun. I now see game design differently; I'm trying to create a system where a single hour of my time can generate 5 minutes of entertainment for thousands of people. That's the equation. Thats the goal.
+
+Turns out fun is elusive. I had many failed level designs. After making the following level, I deleted all the levels I had made with KennyNL's tiles, and started from scratch. I had moved the bar higher of what quality was, and none of my previous levels reached the quality threshold that I now required.
 
 ![hyperputt-cliffhanger][cliffhanger]  
 _After much iteration_
 
 
-After much iteration, I began to form an effective design process. I begin by placing 2 or 3 large cubes, put the ball on one and the hole on another, and start visualizing the path I want to force players to take. The placement of these initial large cubes is vitally important. Placed well, and the level will come together quickly and easily. Placed poorly, and you will fight to make the level fun.
-
-I've thrown out many levels that did not reach the quality bar that I was looking for. Now, I usually have a clear vision in mind before I begin. I have a notebook where I draw the simplest minigolf levels imaginable, and I slowly add complexity to the simplicity. Ideally, this allows me to fail on paper, instead of at my computer.
+After much iteration, I began to form an effective design process. Now, I usually have a clear vision in mind before I begin. I have a notebook where I draw the simplest minigolf levels imaginable, and I slowly add complexity to the simplicity. Ideally, this allows me to fail on paper, instead of at my computer.
 
 ![twins][twins]
 _Less is more_
@@ -30,7 +30,9 @@ Simplicity is the key here. Less is more. I've spent countless hours adding more
 ![tee][tee]
 _Details come last_
 
-If your interested in Isoputt, please consider following me on [twitter][twitter], subscribing to my email list, or donating on [kofi][kofi].
+My basic formula is this: 5 shots for a beginner player, 3 for an intermediate and 2 for an expert. Once I have a level that requires approximately that amount of shots, I iterate on the look of it. I'm still developing my esthetic style. But I have [lots][odpom] of [inspiration][sir_carma] on twitter.
+
+If your interested in Isoputt, please consider following me on [twitter][twitter], subscribing to my email list, or donating on [kofi][kofi]. I'm always interested in feedback.
 
 [cliffhanger]:{{site.baseurl}}/assets/img/hyperput_cliffhanger.gif "Isoputt Gif"
 [minigolf]:{{site.baseurl}}/assets/img/minigolf.gif "Minigolf Gif"
@@ -39,3 +41,5 @@ If your interested in Isoputt, please consider following me on [twitter][twitter
 [twitter]:https://twitter.com/00jknight
 [kofi]:https://ko-fi.com/00jknight
 
+[odpom]:https://twitter.com/ODPomery
+[sir_carma]:https://twitter.com/Sir_carma
