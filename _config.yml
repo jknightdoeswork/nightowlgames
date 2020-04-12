@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
 
 # Link settings
-permalink: /:categories/:title/
+permalink: blog/:categories/:title/
 
 # Analytics
 google_analytics: UA-154142427-1
@@ -48,3 +48,8 @@ exclude:
   - vendor/ruby/
   - tools/
   - resources/
+
+
+header_pages:
+  - isoputt.md
+  - blog.md
