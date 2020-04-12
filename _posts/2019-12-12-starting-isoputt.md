@@ -22,12 +22,12 @@ _After much iteration_
 
 After much iteration, I began to form an effective design process. Now, I usually have a clear vision in mind before I begin. I have a notebook where I draw the simplest minigolf levels imaginable, and I slowly add complexity to the simplicity. Ideally, this allows me to fail on paper, instead of at my computer.
 
-![twins][twins]
+![tee][tee]
 _Less is more_
 
 Simplicity is the key here. Less is more. I've spent countless hours adding more and more things to a bad level trying to make it fun, but it feels so impossible when you have a bad foundation. The good stuff forms when I have a good basis, and then I start removing the shots that I do not want to allow players to make. Finally, I focus on esthetics, adding small details in order to spice up the look of the game.
 
-![tee][tee]
+![twins][twins]
 _Details come last_
 
 My basic formula is this: 5 shots for a beginner player, 3 for an intermediate and 2 for an expert. Once I have a level that requires approximately that amount of shots, I iterate on the look of it. I'm still developing my esthetic style. But I have [lots][odpom] of [inspiration][sir_carma] on twitter.
