@@ -32,6 +32,12 @@ $table-text-align: left !default;
   font-display:swap;
 }
 
+@font-face {
+  font-family: jetbrains;
+  src: url(/assets/font/JetBrainsMono-Regular.woff);
+  font-display:swap;
+}
+
 $nightowl-lilac: #2a273f;
 $nightowl-dark: #15202b;
 $nightowl-neon: #15deb3;
