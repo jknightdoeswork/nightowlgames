@@ -15,7 +15,7 @@ _My initial physics-prototyping level._
 The experience of making this game has changed my outlook on game dev completely. I now view level creation as the primary mode of game development; where systems and implementations merely serve as a scaffold upon which to build artistry.
 
 ![hyperputt-cliffhanger][cliffhanger]  
-_After much iteration..._
+_After much iteration_
 
 
 After much iteration, I began to form an effective design process. I begin by placing 2 or 3 large cubes, put the ball on one and the hole on another, and start visualizing the path I want to force players to take. The placement of these initial large cubes is vitally important. Placed well, and the level will come together quickly and easily. Placed poorly, and you will fight to make the level fun.
@@ -27,6 +27,7 @@ _Less is more_
 Simplicity is the key here. Less is more. I've spent countless hours adding more and more things to a bad level trying to make it fun, but it feels so impossible when you have a bad foundation. The good stuff forms when I have a good basis, and then I start removing the shots that I do not want to allow players to make. Finally, I focus on esthetics, adding small details in order to spice up the look of the game.
 
 ![tee][tee]
+_Details come last_
 
 If your interested in Isoputt, please consider following me on [twitter][twitter], subscribing to my email list, or donating on [kofi][kofi].
 
