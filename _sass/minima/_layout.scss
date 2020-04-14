@@ -286,21 +286,31 @@ footer {
   @include relative-font-size(1.75);
 }
 
+.rss-subscribe { 
+  display:none;
+}
+
 .post-list {
   margin-left: 0;
   list-style: none;
 
   > li {
     margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit;
+    h3 {
+      margin-bottom: 0;
+    }
   }
 }
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $nightowl-light;
+  display:none;
 }
 
 .post-link {
+  font-family: comfortaa;
   display: block;
   @include relative-font-size(1.5);
 }
