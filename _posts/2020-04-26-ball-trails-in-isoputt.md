@@ -24,7 +24,11 @@ if physics_material_name == "green":
 		ball_trail.draw_on_point(collision.position)
 {% endhighlight %}
 
-`draw_on_point` uses barycentric coordinates to find which triangle the ball is on, then gets the UV coordinates, and then calls into `draw_on_uv` in order to draw a spot on the decal map. Note that this function, and `draw_on_uv`, only really work on the default Godot cube. To extend them to a more general solution, you'd have to find if the brush lies on _multiple triangles_. IsoPutt's greens are all secretely just cubes, so it works well enough for this game.
+The BallTrail class is a script extending from MeshInstance. If ball touches the green, it looks for the BallTrail node, and if it finds it, calls `draw_on_point`.
+
+`draw_on_point` uses barycentric coordinates to find which triangle the ball is on, then gets the UV coordinates and calls into `draw_on_uv` in order to draw a spot on the decal map. Note that this function, and `draw_on_uv`, only really work on the default Godot cube. To extend them to a more general solution, you'd have to find if the brush lies on _multiple triangles_. IsoPutt's greens are all secretely just cubes, so it works well enough for this game.
+
+This function uses the [MeshDataTool] class to access the vertex and triangle data. That class provides a nice interface over raw mesh data access.
 
 {% highlight gdscript %}
 # Draws on the decal map at point p
@@ -59,6 +63,20 @@ func draw_on_point(p:Vector3):
 					draw_on_uv(uv)
 					return
 
+{% endhighlight %}
+
+Note that the [MeshDataTool] only works on `ArrayMesh`, so if you have a different mesh (eg: `CubeMesh`), then you must convert it to an array mesh first by using some code like this:
+
+{% highlight gdscript %}
+func create_mesh_data_tool(mesh:Mesh) -> MeshDataTool:
+	var array_mesh = mesh
+	if !array_mesh is ArrayMesh:
+		var surface_arrays = mesh.surface_get_arrays(0)
+		array_mesh = ArrayMesh.new()
+		array_mesh.add_surface_from_arrays(Mesh.PRIMITIVE_TRIANGLES, surface_arrays)
+	var mesh_data_tool = MeshDataTool.new()
+	mesh_data_tool.create_from_surface(array_mesh, 0)
+	return mesh_data_tool
 {% endhighlight %}
 
 # Barycentric Coordinates
@@ -109,8 +127,7 @@ func draw_on_uv(uv:Vector2):
 	var pixel_x := int(round(uv.x * width))
 	var pixel_y := int(round(uv.y * height))
 	
-	# TODO
-	# Scale brush size by object size
+	# Default Cube's UV map has a width to height ratio of 2:3
 	var brush_size_x := 4
 	var brush_size_y := 6
 
@@ -162,6 +179,7 @@ That's it! It works! I hope this page helped you!
 
 ![isoputt_ball_trail_mountain]
 
+[MeshDataTool]:https://docs.godotengine.org/en/latest/classes/class_meshdatatool.html
 [twitter]:https://twitter.com/00jknight
 [swatchd]:https://github.com/jknightdoeswork/swatchd
 [swatchr]:https://github.com/jknightdoeswork/swatchr
