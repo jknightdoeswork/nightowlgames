@@ -1,12 +1,12 @@
 ---
 layout: page
-title: isoputt
+title: IsoPutt
 permalink: /isoputt/
-description: Isoputt is an elegant golf puzzle game being developed in the Godot Engine.
+description: IsoPutt is an elegant golf puzzle game being developed in the Godot Engine.
 ---
 _Last updated: April 11th, 2020_
 
-Isoputt is an elegant golf puzzle game being developed in the Godot Engine.
+IsoPutt is an elegant golf puzzle game being developed in the Godot Engine.
 
 In addition to hand crafted levels, I'm working on an algorithm to generate an infinite number of minigolf levels.
 
