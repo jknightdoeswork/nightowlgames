@@ -5,6 +5,10 @@ date:   2020-04-26 18:50:00 -0600
 categories: isoputt
 ---
 
+I've added a ball trail to [IsoPutt]. It serves two purposes: one, it's like how in Super Meat Boy you can see all of your failed attempts. In IsoPutt, the ball trail doesnt reset when you fail the level, so you see all the lines you've made.
+
+Additionally, I'm trying to make the ground look a bit more like grass. I think I have some further iteration to do on this... perhaps using a foliage texture for the brush on the ground.
+
 This post describes how I created this ball trail effect in [IsoPutt]. At a high level, it involves using barycentric coordinates to transform a world position into a uv coordinate, then uses a shader on the green with a decal map, two color indicies, and a palette texture in order to draw the trails.
 
 ![isoputt_ball_trail][isoputt_ball_trail]  
