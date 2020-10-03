@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Menu Polish in IsoPutt"
-date:   2020-10-03 18:50:00 -0600
+date:   2020-10-03 14:30:00 -0600
 categories: isoputt
 ---
+
 ![isoputt_menupolish][isoputt_menupolish]  
 _Color palette swapping makes this menu come alive._
 
