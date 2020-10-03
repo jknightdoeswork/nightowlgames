@@ -93,15 +93,20 @@ func barycentric_to_uv(a:Vector2, b:Vector2, c:Vector2, p:Vector3) -> Vector2:
 # Drawing the Decal
 
 Now we take the UV Coordinate and draw onto a black and white texture called a decal map. White means trail, black means no-trail.
-Note that the brush size is 4x6. That's what's needed to draw squares on the default Godot CubeMesh's UV Map. Pretty weird. 😐
+
+The `brush_size` is a Vector2 specifying how big of a ball trail to draw. For IsoPutt's greens, I use a brush size of 4x6. That's what's needed to draw squares on the default Godot CubeMesh's UV Map. Pretty weird. 😐
+
+The `uv_map_size` is a Vector2 that maps the X/Z scale of the mesh to the size of the UV image map. In IsoPutt, the greens use 25.6x25.6 such that a 10x10 green uses a 256x256 decal map. The ramps use a different scale, and I just tuned the numbers until the ball trail looked like it was the same size. on the ramps and on the green. There's likely an algorithmic way to calculate the required size of the decal map. Feel free to @ me on [twitter] if you know what that is!
 
 {% highlight gdscript %}
 func create_decal_map(uv_map_size:Vector2) -> Image:
+	var mesh_global_scale := global_transform.basis.get_scale()
 	var image = Image.new()
-	image.create(uv_map_size.x, uv_map_size.y, false, Image.FORMAT_R8)
+	# Scale the decal map by the X/Z dimensions of the object
+	image.create(uv_map_size.x*mesh_global_scale.x, uv_map_size.y*mesh_global_scale.z, false, Image.FORMAT_R8)
 	return image
 
-func draw_on_uv(uv:Vector2):
+func draw_on_uv(uv:Vector2, brush_size:Vector2):
 	var width := image.get_width()
 	var height := image.get_height()
 
@@ -111,8 +116,8 @@ func draw_on_uv(uv:Vector2):
 	
 	# TODO
 	# Scale brush size by object size
-	var brush_size_x := 4
-	var brush_size_y := 6
+	var brush_size_x := brush_size.x
+	var brush_size_y := brush_size.y
 
 	var brush_min_x := round(clamp(pixel_x - brush_size_x * 0.5, 0, width))
 	var brush_max_x := round(clamp(pixel_x + brush_size_x * 0.5, 0, width))

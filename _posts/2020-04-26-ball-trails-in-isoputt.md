@@ -9,7 +9,7 @@ I've added a ball trail to [IsoPutt]. It serves two purposes: one, it's like how
 
 Additionally, I'm trying to make the ground look a bit more like grass. I think I have some further iteration to do on this... perhaps using a foliage texture for the brush on the ground.
 
-This post describes how I created this ball trail effect in [IsoPutt]. At a high level, it involves using barycentric coordinates to transform a world position into a uv coordinate, then uses a shader on the green with a decal map, two color indicies, and a palette texture in order to draw the trails.
+This post describes how I created this ball trail effect in [IsoPutt] using the [Godot] engine. At a high level, it involves using barycentric coordinates to transform a world position into a uv coordinate, then uses a shader on the green with a decal map, two color indicies, and a palette texture in order to draw the trails.
 
 ![isoputt_ball_trail][isoputt_ball_trail]  
 _The ball's touch darkens the green texture underneath it._
@@ -114,7 +114,8 @@ func barycentric_to_uv(a:Vector2, b:Vector2, c:Vector2, p:Vector3) -> Vector2:
 
 # Drawing the Decal
 
-Now we take the UV Coordinate and draw onto a black and white texture called a decal map. White means trail, black means no-trail.
+Now we take the UV Coordinate and draw onto a black and white texture called a decal map. White means trail, black means no-trail. The decal map has to be the right size for the size of the mesh we are drawing on. For IsoPutt's green cube meshes, I use the meshes globalscale * 26.5, such that a cube mesh with a scale of 10x10 has a 256x256 decal map.
+
 Note that the brush size is 4x6. That's what's needed to draw squares on the default Godot CubeMesh's UV Map. Pretty weird. 😐
 
 {% highlight gdscript %}
@@ -183,6 +184,7 @@ That's it! It works! I hope this page helped you!
 
 ![isoputt_ball_trail_mountain]
 
+[Godot]:https://godotengine.org/
 [MeshDataTool]:https://docs.godotengine.org/en/latest/classes/class_meshdatatool.html
 [twitter]:https://twitter.com/00jknight
 [swatchd]:https://github.com/jknightdoeswork/swatchd
